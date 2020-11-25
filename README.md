@@ -19,7 +19,7 @@ rake db:seed
 rails s 
 
 
-Open Postman Files on public/api_v1.json
+Open Postman Files on public/minitoko.json
 you could Open on POSTMAN tools, and export it.
 
 
@@ -33,7 +33,7 @@ default user:
 user1@example.com / samurai1
 
 
-After run that, you could try all the API listed on the POSTMAN.
+After run that, you could try all the API listed on the POSTMAN ( public / minitoko.json).
 
 
 
