@@ -1,0 +1,624 @@
+2020-11-24 15:13:41[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  ShoppingCartItem => [:product_variant]
+  Add to your query: .includes([:product_variant])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:30:in `index'
+
+2020-11-24 15:15:10[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  ShoppingCartItem => [:product_variant]
+  Add to your query: .includes([:product_variant])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:30:in `index'
+
+2020-11-24 15:16:50[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  ShoppingCartItem => [:product_variant]
+  Add to your query: .includes([:product_variant])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:30:in `index'
+
+2020-11-24 15:17:46[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  ShoppingCartItem => [:product_variant]
+  Add to your query: .includes([:product_variant])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:30:in `index'
+
+2020-11-24 15:19:41[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  ShoppingCartItem => [:product_variant]
+  Add to your query: .includes([:product_variant])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:30:in `index'
+
+2020-11-24 15:21:36[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  ShoppingCartItem => [:product_variant]
+  Add to your query: .includes([:product_variant])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:30:in `index'
+
+2020-11-24 15:22:59[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  Cart => [:store]
+  Add to your query: .includes([:store])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:30:in `index'
+
+2020-11-24 15:22:59[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  Cart => [:shopping_cart_items]
+  Add to your query: .includes([:shopping_cart_items])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:30:in `index'
+
+2020-11-24 15:22:59[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  ShoppingCartItem => [:product_variant]
+  Add to your query: .includes([:product_variant])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:30:in `index'
+
+2020-11-24 15:24:09[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  Cart => [:store]
+  Add to your query: .includes([:store])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:30:in `index'
+
+2020-11-24 15:24:09[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  Cart => [:shopping_cart_items]
+  Add to your query: .includes([:shopping_cart_items])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:30:in `index'
+
+2020-11-24 15:24:09[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  ShoppingCartItem => [:product_variant]
+  Add to your query: .includes([:product_variant])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:30:in `index'
+
+2020-11-24 15:24:25[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  Cart => [:store]
+  Add to your query: .includes([:store])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:30:in `index'
+
+2020-11-24 15:24:25[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  Cart => [:shopping_cart_items]
+  Add to your query: .includes([:shopping_cart_items])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:30:in `index'
+
+2020-11-24 15:24:25[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  ShoppingCartItem => [:product_variant]
+  Add to your query: .includes([:product_variant])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:30:in `index'
+
+2020-11-24 15:24:49[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  Cart => [:store]
+  Add to your query: .includes([:store])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:30:in `index'
+
+2020-11-24 15:24:49[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  Cart => [:shopping_cart_items]
+  Add to your query: .includes([:shopping_cart_items])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:30:in `index'
+
+2020-11-24 15:24:49[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  ShoppingCartItem => [:product_variant]
+  Add to your query: .includes([:product_variant])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:30:in `index'
+
+2020-11-24 15:25:04[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  Cart => [:store]
+  Add to your query: .includes([:store])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:30:in `index'
+
+2020-11-24 15:25:04[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  Cart => [:shopping_cart_items]
+  Add to your query: .includes([:shopping_cart_items])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:30:in `index'
+
+2020-11-24 15:25:04[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  ShoppingCartItem => [:product_variant]
+  Add to your query: .includes([:product_variant])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:30:in `index'
+
+2020-11-24 15:27:07[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  Cart => [:store]
+  Add to your query: .includes([:store])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:32:in `index'
+
+2020-11-24 15:27:07[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  Cart => [:shopping_cart_items]
+  Add to your query: .includes([:shopping_cart_items])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:32:in `index'
+
+2020-11-24 15:27:07[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  ShoppingCartItem => [:product_variant]
+  Add to your query: .includes([:product_variant])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:32:in `index'
+
+2020-11-24 15:29:22[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  Cart => [:store]
+  Add to your query: .includes([:store])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:32:in `index'
+
+2020-11-24 15:29:22[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  Cart => [:shopping_cart_items]
+  Add to your query: .includes([:shopping_cart_items])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:32:in `index'
+
+2020-11-24 15:29:22[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  ShoppingCartItem => [:product_variant]
+  Add to your query: .includes([:product_variant])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:32:in `index'
+
+2020-11-24 15:31:29[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  Cart => [:store]
+  Add to your query: .includes([:store])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:32:in `index'
+
+2020-11-24 15:31:29[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  Cart => [:shopping_cart_items]
+  Add to your query: .includes([:shopping_cart_items])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:32:in `index'
+
+2020-11-24 15:31:29[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  ShoppingCartItem => [:product_variant]
+  Add to your query: .includes([:product_variant])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:32:in `index'
+
+2020-11-24 15:31:36[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  Cart => [:store]
+  Add to your query: .includes([:store])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:32:in `index'
+
+2020-11-24 15:31:36[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  Cart => [:shopping_cart_items]
+  Add to your query: .includes([:shopping_cart_items])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:32:in `index'
+
+2020-11-24 15:31:36[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  ShoppingCartItem => [:product_variant]
+  Add to your query: .includes([:product_variant])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:32:in `index'
+
+2020-11-24 15:32:13[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  Cart => [:store]
+  Add to your query: .includes([:store])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:32:in `index'
+
+2020-11-24 15:32:13[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  Cart => [:shopping_cart_items]
+  Add to your query: .includes([:shopping_cart_items])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:32:in `index'
+
+2020-11-24 15:32:13[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  ShoppingCartItem => [:product_variant]
+  Add to your query: .includes([:product_variant])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:32:in `index'
+
+2020-11-24 15:34:05[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  Cart => [:store]
+  Add to your query: .includes([:store])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:32:in `index'
+
+2020-11-24 15:34:05[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  Cart => [:shopping_cart_items]
+  Add to your query: .includes([:shopping_cart_items])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:32:in `index'
+
+2020-11-24 15:34:05[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  ShoppingCartItem => [:product_variant]
+  Add to your query: .includes([:product_variant])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:32:in `index'
+
+2020-11-24 15:36:46[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  Cart => [:store]
+  Add to your query: .includes([:store])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:32:in `index'
+
+2020-11-24 15:36:46[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  Cart => [:shopping_cart_items]
+  Add to your query: .includes([:shopping_cart_items])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:32:in `index'
+
+2020-11-24 15:36:46[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  ShoppingCartItem => [:product_variant]
+  Add to your query: .includes([:product_variant])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:32:in `index'
+
+2020-11-24 15:37:20[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  Cart => [:store]
+  Add to your query: .includes([:store])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:32:in `index'
+
+2020-11-24 15:37:20[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  Cart => [:shopping_cart_items]
+  Add to your query: .includes([:shopping_cart_items])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:32:in `index'
+
+2020-11-24 15:37:20[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  ShoppingCartItem => [:product_variant]
+  Add to your query: .includes([:product_variant])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:32:in `index'
+
+2020-11-24 15:37:45[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  Cart => [:store]
+  Add to your query: .includes([:store])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:32:in `index'
+
+2020-11-24 15:37:45[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  Cart => [:shopping_cart_items]
+  Add to your query: .includes([:shopping_cart_items])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:32:in `index'
+
+2020-11-24 15:37:45[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  ShoppingCartItem => [:product_variant]
+  Add to your query: .includes([:product_variant])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:32:in `index'
+
+2020-11-24 15:39:12[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  Cart => [:store]
+  Add to your query: .includes([:store])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:32:in `index'
+
+2020-11-24 15:39:12[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  Cart => [:shopping_cart_items]
+  Add to your query: .includes([:shopping_cart_items])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:32:in `index'
+
+2020-11-24 15:39:12[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  ShoppingCartItem => [:product_variant]
+  Add to your query: .includes([:product_variant])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:32:in `index'
+
+2020-11-24 15:39:38[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  Cart => [:store]
+  Add to your query: .includes([:store])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:31:in `index'
+
+2020-11-24 15:39:38[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  Cart => [:shopping_cart_items]
+  Add to your query: .includes([:shopping_cart_items])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:31:in `index'
+
+2020-11-24 15:39:38[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  ShoppingCartItem => [:product_variant]
+  Add to your query: .includes([:product_variant])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:31:in `index'
+
+2020-11-24 15:43:08[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  Cart => [:store]
+  Add to your query: .includes([:store])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:31:in `index'
+
+2020-11-24 15:43:08[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  Cart => [:shopping_cart_items]
+  Add to your query: .includes([:shopping_cart_items])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:31:in `index'
+
+2020-11-24 15:43:08[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  ShoppingCartItem => [:product_variant]
+  Add to your query: .includes([:product_variant])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:31:in `index'
+
+2020-11-24 15:47:05[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  Cart => [:store]
+  Add to your query: .includes([:store])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:31:in `index'
+
+2020-11-24 15:47:05[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  Cart => [:shopping_cart_items]
+  Add to your query: .includes([:shopping_cart_items])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:31:in `index'
+
+2020-11-24 15:47:05[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  ShoppingCartItem => [:product_variant]
+  Add to your query: .includes([:product_variant])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:31:in `index'
+
+2020-11-24 15:47:46[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  Cart => [:store]
+  Add to your query: .includes([:store])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:31:in `index'
+
+2020-11-24 15:47:46[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  Cart => [:shopping_cart_items]
+  Add to your query: .includes([:shopping_cart_items])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:31:in `index'
+
+2020-11-24 15:47:46[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  ShoppingCartItem => [:product_variant]
+  Add to your query: .includes([:product_variant])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:31:in `index'
+
+2020-11-24 15:50:06[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  Cart => [:store]
+  Add to your query: .includes([:store])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:32:in `index'
+
+2020-11-24 15:50:06[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  Cart => [:shopping_cart_items]
+  Add to your query: .includes([:shopping_cart_items])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:32:in `index'
+
+2020-11-24 15:50:06[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  ShoppingCartItem => [:product_variant]
+  Add to your query: .includes([:product_variant])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:32:in `index'
+
+2020-11-25 12:13:27[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  Cart => [:store]
+  Add to your query: .includes([:store])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:36:in `index'
+
+2020-11-25 12:13:27[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  Cart => [:shopping_cart_items]
+  Add to your query: .includes([:shopping_cart_items])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:36:in `index'
+
+2020-11-25 12:13:27[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  ShoppingCartItem => [:product_variant]
+  Add to your query: .includes([:product_variant])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:36:in `index'
+
+2020-11-25 12:50:58[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  Cart => [:store]
+  Add to your query: .includes([:store])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:47:in `index'
+
+2020-11-25 12:50:58[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  Cart => [:shopping_cart_items]
+  Add to your query: .includes([:shopping_cart_items])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:47:in `index'
+
+2020-11-25 12:50:58[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  ShoppingCartItem => [:product_variant]
+  Add to your query: .includes([:product_variant])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:47:in `index'
+
+2020-11-25 13:09:29[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  Cart => [:store]
+  Add to your query: .includes([:store])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:33:in `index'
+
+2020-11-25 13:09:29[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  Cart => [:shopping_cart_items]
+  Add to your query: .includes([:shopping_cart_items])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:33:in `index'
+
+2020-11-25 13:24:46[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  Cart => [:store]
+  Add to your query: .includes([:store])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:37:in `index'
+
+2020-11-25 13:24:46[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  Cart => [:shopping_cart_items]
+  Add to your query: .includes([:shopping_cart_items])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:37:in `index'
+
+2020-11-25 13:26:59[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  Cart => [:store]
+  Add to your query: .includes([:store])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:38:in `index'
+
+2020-11-25 13:26:59[WARN] user: bainur
+GET /api/v1/carts
+USE eager loading detected
+  Cart => [:shopping_cart_items]
+  Add to your query: .includes([:shopping_cart_items])
+Call stack
+  /home/bainur/projects/minitoko2/minitoko/app/controllers/api/v1/carts_controller.rb:38:in `index'
+

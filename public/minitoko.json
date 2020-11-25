@@ -1,0 +1,495 @@
+{
+	"info": {
+		"_postman_id": "eb583bf3-389a-4803-bbc3-0d0b1177540b",
+		"name": "POSTMAN API v1 for testing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "REGISTRATION",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"content-type": true
+				}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"user\": {\n        \"email\": \"user1@example.com\",\n        \"password\": \"samurai1\",\n        \"username\": \"bainur1\",\n        \"first_name\": \"inu\",\n        \"last_name\": \"inulast\"\n    }\n}"
+				},
+				"url": {
+					"raw": "localhost:3000/api/v1/users/",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"users",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "LOGIN",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"user\": {\n        \"email\": \"user1@example.com\",\n        \"password\": \"samurai1\"\n    }\n}"
+				},
+				"url": {
+					"raw": "localhost:3000/api/v1/users/sign_in",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"users",
+						"sign_in"
+					]
+				},
+				"description": "adsfasf"
+			},
+			"response": []
+		},
+		{
+			"name": "Get PRODUCTS",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "access-token",
+						"type": "text",
+						"value": "{{access-token}}"
+					},
+					{
+						"key": "uid",
+						"type": "text",
+						"value": "{{uid}}"
+					},
+					{
+						"key": "client",
+						"type": "text",
+						"value": "{{client}}"
+					},
+					{
+						"key": "expiry",
+						"type": "text",
+						"value": "{{expiry}}"
+					}
+				],
+				"url": {
+					"raw": "localhost:3000/api/v1/products",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET ORDERS",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "access-token",
+						"type": "text",
+						"value": "{{access-token}}"
+					},
+					{
+						"key": "uid",
+						"type": "text",
+						"value": "{{uid}}"
+					},
+					{
+						"key": "client",
+						"type": "text",
+						"value": "{{client}}"
+					},
+					{
+						"key": "expiry",
+						"type": "text",
+						"value": "{{expiry}}"
+					}
+				],
+				"url": {
+					"raw": "localhost:3000/api/v1/order_list",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"order_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET CHART ITEMS",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "access-token",
+						"type": "text",
+						"value": "{{access-token}}"
+					},
+					{
+						"key": "uid",
+						"type": "text",
+						"value": "{{uid}}"
+					},
+					{
+						"key": "client",
+						"type": "text",
+						"value": "{{client}}"
+					},
+					{
+						"key": "expiry",
+						"type": "text",
+						"value": "{{expiry}}"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:3000/api/v1/carts",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"carts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ADD TO CART",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "access-token",
+						"value": "{{access-token}}",
+						"type": "text"
+					},
+					{
+						"key": "uid",
+						"value": "{{uid}}",
+						"type": "text"
+					},
+					{
+						"key": "client",
+						"value": "{{client}}",
+						"type": "text"
+					},
+					{
+						"key": "expiry",
+						"value": "{{expiry}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"cart\": {\n        \"product_variant_id\": 42,\n        \"quantity\": 3,\n        \"store_id\": 5,\n        \"notes\": \"Beli yang banyak 90\"      \n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/v1/add_to_cart",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"add_to_cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CREATE ORDER",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "access-token",
+						"type": "text",
+						"value": "{{access-token}}"
+					},
+					{
+						"key": "uid",
+						"type": "text",
+						"value": "{{uid}}"
+					},
+					{
+						"key": "client",
+						"type": "text",
+						"value": "{{client}}"
+					},
+					{
+						"key": "expiry",
+						"type": "text",
+						"value": "{{expiry}}"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"order\": {  \n        \"order_stores\": {\n            \"0\": {\n                \"store_id\": 5, \n                \"order_products\": {\n                    \"0\": {\n                        \"product_variant_id\": 42, \n                        \"shopping_cart_item_id\": 18 }\n                }\n            }\n        }\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/v1/create_order",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"create_order"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "REMOVE CHART ITEM",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "access-token",
+						"type": "text",
+						"value": "{{access-token}}"
+					},
+					{
+						"key": "uid",
+						"type": "text",
+						"value": "{{uid}}"
+					},
+					{
+						"key": "client",
+						"type": "text",
+						"value": "{{client}}"
+					},
+					{
+						"key": "expiry",
+						"type": "text",
+						"value": "{{expiry}}"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"cart\": {\n        \"product_variant_id\": 42,\n        \"quantity\": 0 , //kalo quantity nya jadi <= 0 ini berarti ngeremove si product di cart\n        \"store_id\": 5       \n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/v1/remove_cart_item",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"remove_cart_item"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "REMOVE CART [ALL ITEMS]",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "access-token",
+						"type": "text",
+						"value": "{{access-token}}"
+					},
+					{
+						"key": "uid",
+						"type": "text",
+						"value": "{{uid}}"
+					},
+					{
+						"key": "client",
+						"type": "text",
+						"value": "{{client}}"
+					},
+					{
+						"key": "expiry",
+						"type": "text",
+						"value": "{{expiry}}"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/v1/remove_carts",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"remove_carts"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "aac9f68b-04fd-49a1-b904-24af4ace3390",
+				"type": "text/javascript",
+				"exec": [
+					"//var url = pm.environment.get(\"hostname\");",
+					"",
+					"const echoPostRequest = {",
+					"    url: 'localhost:3000/api/v1/users/sign_in',",
+					"    method: 'POST',",
+					"    header: 'Content-Type:application/json',",
+					"    body: {",
+					"        mode: 'application/json',       ",
+					"        raw: JSON.stringify(",
+					"            {",
+					"                user: {",
+					"                    email: 'user1@example.com',",
+					"                    password: 'samurai1'",
+					"",
+					"                    //email: 'admin@flowapp.com',",
+					"                    //password: 'flowapp12345678'",
+					"                }",
+					"            })",
+					"    }",
+					"};",
+					"",
+					"var getToken = true;",
+					"",
+					"if (!pm.environment.get('access-token') ||",
+					"    !pm.environment.get('client') ||",
+					"    !pm.environment.get('uid') ||",
+					"    !pm.environment.get('expiry')",
+					") {",
+					"    console.log('Token or client or uid  are missing')",
+					"} else if (pm.environment.get('expiry') <= (new Date()).getTime()) {",
+					"    console.log('Token is expired')",
+					"} else {",
+					"    getToken = false;",
+					"    console.log('Token and expiry date are all good');",
+					"}",
+					"",
+					"if (getToken === true) {",
+					"    pm.sendRequest(echoPostRequest, function (err, res) {",
+					"        console.log(err ? err : res.json());",
+					"        console.log(res.headers.get('access-token'));",
+					"",
+					"        if (err === null) {",
+					"            console.log('Saving the token and expiry date')",
+					"            var responseJson = res.json();",
+					"            var access_token = res.headers.get('access-token');",
+					"            var client = res.headers.get('client');",
+					"            var uid = res.headers.get('uid');",
+					"            var expiry = res.headers.get('expiry');",
+					"            console.log('access-token =' + access_token);",
+					"            console.log('client =' + client);",
+					"            console.log('uid =' + uid);",
+					"            console.log('expiry =' + expiry);",
+					"",
+					"            pm.environment.set('access-token', access_token);",
+					"            pm.environment.set('client', client);",
+					"            pm.environment.set('uid', uid);",
+					"            pm.environment.set('expiry', expiry);",
+					"        }",
+					"    });",
+					"}",
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "3481176a-e6a4-453b-a843-b9e6a879a553",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
